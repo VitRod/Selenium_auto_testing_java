@@ -18,7 +18,7 @@ public class CookieManager {
     public void deleteCookie(Cookie cookie){
         driver.manage().deleteCookie(cookie);
     }        
-
+    
     public boolean isCookiePresent(Cookie cookie){
         return driver.manage().getCookieNamed(cookie.getName()) != null;
     }
