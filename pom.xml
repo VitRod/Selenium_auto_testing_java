@@ -9,13 +9,14 @@
         <maven.compiler.source>11</maven.compiler.source>
     </properties>
 
-    <dependencies>
-        <dependency>
+     <dependencies>
+   
+ <!--   <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-chrome-driver</artifactId>
             <version>3.141.59</version>
         </dependency>
-    
+    -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-support</artifactId>
