@@ -19,7 +19,7 @@
     -->    
         <dependency>   
             <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-support</artifactId>
+            <artifactId>selenium-support</artifactId>   
             <version>3.141.59</version>
         </dependency>
 
