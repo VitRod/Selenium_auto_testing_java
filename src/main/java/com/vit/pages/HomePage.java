@@ -16,6 +16,9 @@ public class HomePage {
         clickLink("JavaScript Alerts");
         return new AlertsPage(driver);
     }
+    
+   
+
 
     
 
