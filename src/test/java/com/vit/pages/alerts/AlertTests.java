@@ -26,7 +26,7 @@ public class AlertTests extends BaseTests {
         assertEquals(text, "I am a JS Confirm", "Alert text incorrect");
     }
 
-    @Test   
+    @Test        
     public void testSetInputInAlert(){
         var alertsPage = homePage.clickJavaScriptAlerts();
         alertsPage.triggerPrompt();
