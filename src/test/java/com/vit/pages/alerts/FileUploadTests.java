@@ -8,4 +8,4 @@ import static org.testng.Assert.assertEquals;
 public class FileUploadTests extends BaseTests {
 
    
-}
+}  
