@@ -28,5 +28,5 @@ public class CookieManager {
                 .domain("the-internet.herokuapp.com")
                 .build();
         return cookie;
-    }
+    }    
 }
