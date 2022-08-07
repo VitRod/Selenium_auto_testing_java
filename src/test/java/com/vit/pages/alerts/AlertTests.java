@@ -32,7 +32,7 @@ public class AlertTests extends BaseTests {
         alertsPage.triggerPrompt();
 
         String text = "TAU rocks!";
-        alertsPage.alert_setInput(text);
+        alertsPage.alert_setInput(text);    
         alertsPage.alert_clickToAccept();
         assertEquals(alertsPage.getResult(), "You entered: " + text, "Results text incorrect");
     }
