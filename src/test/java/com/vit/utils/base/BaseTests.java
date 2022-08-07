@@ -24,7 +24,7 @@ public class BaseTests {
         driver = new EventFiringWebDriver(new ChromeDriver(getChromeOptions()));
         driver.register(new EventReporter());
     }
-      
+           
     @BeforeMethod
     public void goHome(){
         driver.get("https://the-internet.herokuapp.com/");
