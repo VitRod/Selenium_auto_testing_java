@@ -30,7 +30,7 @@ public class BaseTests {
         driver.get("https://the-internet.herokuapp.com/");
         homePage = new HomePage(driver);
     }
-       
+           
     @AfterClass
     public void tearDown(){
         driver.quit();    
