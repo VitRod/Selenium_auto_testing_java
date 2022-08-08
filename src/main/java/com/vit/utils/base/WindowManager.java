@@ -31,6 +31,7 @@ public class WindowManager {
         navigate.refresh();
     }
 
+    
     public void goTo(String url){
         navigate.to(url);
     }
