@@ -25,15 +25,15 @@ public class WindowManager {
     	navigate.forward();
     }
     
-    
+    public void refreshPage(){
+        navigate.refresh();
+    }
 
     
 
     
      
-    public void refreshPage(){
-        navigate.refresh();
-    }
+    
 
     
     public void goTo(String url){
