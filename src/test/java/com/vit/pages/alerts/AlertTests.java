@@ -27,7 +27,7 @@ public class AlertTests extends BaseTests {
     }
 
     @Test            
-    public void testSetInputInAlert(){                
+    public void testSetInputInAlert(){                    
         var alertsPage = homePage.clickJavaScriptAlerts();
         alertsPage.triggerPrompt();
 
