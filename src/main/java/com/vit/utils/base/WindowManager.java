@@ -12,10 +12,10 @@ public class WindowManager {
 
     
     public WindowManager(WebDriver driver){
-       
-    	 this.driver = driver;
-        navigate = driver.navigate();
+    	this.driver = driver;   
+   	   navigate = driver.navigate();
     }
+   
 
     
     public void goBack(){
