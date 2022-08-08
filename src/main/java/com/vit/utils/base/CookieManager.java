@@ -16,12 +16,12 @@ public class CookieManager {
 	        driver.manage().addCookie(cookie);
 	    }
 
-   
+	 public void deleteCookie(Cookie cookie){
+	        driver.manage().deleteCookie(cookie);
+	    }        
 
     
-    public void deleteCookie(Cookie cookie){
-        driver.manage().deleteCookie(cookie);
-    }        
+    
     
    
     public boolean isCookiePresent(Cookie cookie){
