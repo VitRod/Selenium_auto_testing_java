@@ -12,7 +12,8 @@ public class WindowManager {
 
     
     public WindowManager(WebDriver driver){
-        this.driver = driver;
+       
+    	 this.driver = driver;
         navigate = driver.navigate();
     }
 
