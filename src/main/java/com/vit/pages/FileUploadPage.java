@@ -15,8 +15,6 @@ public class FileUploadPage {
         this.driver = driver;
     }
 
-    
-    
     public void clickUploadButton(){
         driver.findElement(uploadButton).click();
     }
