@@ -7,11 +7,12 @@ public class CookieManager {
 
     
 	private WebDriver driver;
-
-    
+	
 	public CookieManager(WebDriver driver){
         this.driver = driver;
     }
+    
+	
 
     public void addCookie(Cookie cookie){
         driver.manage().addCookie(cookie);
