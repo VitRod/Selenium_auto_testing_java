@@ -14,6 +14,8 @@ public class FileUploadPage {
         this.driver = driver;
     }
 
+    
+    
     public void clickUploadButton(){
         driver.findElement(uploadButton).click();
     }
@@ -22,6 +24,7 @@ public class FileUploadPage {
      * Provides path of file to the form then clicks Upload button
      * @param absolutePathOfFile The complete path of the file to upload
      */
+    
     public void uploadFile(String absolutePathOfFile){
         driver.findElement(inputField).sendKeys(absolutePathOfFile);
         clickUploadButton();
