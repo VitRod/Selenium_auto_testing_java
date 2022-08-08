@@ -24,16 +24,16 @@ public class CookieManager {
 	        return driver.manage().getCookieNamed(cookie.getName()) != null;
 	    }
     
-    
+	 public Cookie buildCookie(String name, String value){
+	        Cookie cookie = new Cookie.Builder(name, value)
+	                .domain("the-internet.herokuapp.com")
+	                .build();
+	        return cookie;
+	    }    
    
     
 
     
-    public Cookie buildCookie(String name, String value){
-        Cookie cookie = new Cookie.Builder(name, value)
-                .domain("the-internet.herokuapp.com")
-                .build();
-        return cookie;
-    }    
+   
 
 }
