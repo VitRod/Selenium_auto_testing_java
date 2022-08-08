@@ -7,18 +7,19 @@ public class CookieManager {
 
 	private WebDriver driver;
 	
-	
 	public CookieManager(WebDriver driver){
         this.driver = driver;
     }
-    
-	 public void addCookie(Cookie cookie){
-	        driver.manage().addCookie(cookie);
-	    }
+	
+	public void addCookie(Cookie cookie){
+        driver.manage().addCookie(cookie);
+    }
+	 
+	public void deleteCookie(Cookie cookie){
+        driver.manage().deleteCookie(cookie);
+    }        
 
-	 public void deleteCookie(Cookie cookie){
-	        driver.manage().deleteCookie(cookie);
-	    }        
+	 
 
 	 public boolean isCookiePresent(Cookie cookie){
 	        return driver.manage().getCookieNamed(cookie.getName()) != null;
