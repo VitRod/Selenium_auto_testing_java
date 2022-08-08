@@ -33,7 +33,8 @@ public class WindowManager {
 
     
     public void goTo(String url){
-        navigate.to(url);
+        
+    	navigate.to(url);
     }
 
     public void switchToTab(String tabTitle){
