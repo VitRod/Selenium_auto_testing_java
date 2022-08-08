@@ -5,7 +5,8 @@ import org.openqa.selenium.WebDriver;
 
 public class CookieManager {
 
-    private WebDriver driver;
+    
+	private WebDriver driver;
 
     public CookieManager(WebDriver driver){
         this.driver = driver;
