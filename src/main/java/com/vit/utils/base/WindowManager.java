@@ -34,13 +34,6 @@ public class WindowManager {
     	navigate.to(url);
     }
 
-    
-     
-    
-
-    
-    
-
     public void switchToTab(String tabTitle){
         Set<String> windows = driver.getWindowHandles();
 
@@ -64,6 +57,13 @@ public class WindowManager {
             }    
         }                       
     }   
+     
+    
+
+    
+    
+
+    
     
     
     public void switchToNewTab(){
