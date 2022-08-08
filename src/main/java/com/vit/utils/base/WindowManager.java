@@ -23,7 +23,8 @@ public class WindowManager {
     }
 
     public void goForward(){
-        navigate.forward();
+        
+    	navigate.forward();
     }
 
     
