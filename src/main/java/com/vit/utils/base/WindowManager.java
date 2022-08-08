@@ -42,6 +42,7 @@ public class WindowManager {
         
         System.out.println("Number of tabs: " + windows.size());
 
+        
         System.out.println("Window handles:");
         windows.forEach(System.out::println);
 
