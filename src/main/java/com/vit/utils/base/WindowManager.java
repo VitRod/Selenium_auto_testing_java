@@ -16,6 +16,7 @@ public class WindowManager {
         navigate = driver.navigate();
     }
 
+    
     public void goBack(){
         navigate.back();
     }
@@ -24,6 +25,7 @@ public class WindowManager {
         navigate.forward();
     }
 
+    
     public void refreshPage(){
         navigate.refresh();
     }
