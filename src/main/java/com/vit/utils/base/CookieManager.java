@@ -20,13 +20,13 @@ public class CookieManager {
 	        driver.manage().deleteCookie(cookie);
 	    }        
 
-    
+	 public boolean isCookiePresent(Cookie cookie){
+	        return driver.manage().getCookieNamed(cookie.getName()) != null;
+	    }
     
     
    
-    public boolean isCookiePresent(Cookie cookie){
-        return driver.manage().getCookieNamed(cookie.getName()) != null;
-    }
+    
 
     
     public Cookie buildCookie(String name, String value){
