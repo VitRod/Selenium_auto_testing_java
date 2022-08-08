@@ -20,13 +20,14 @@ public class WindowManager {
     	navigate.back();
     }
     	
-    
-    
-
     public void goForward(){
         
     	navigate.forward();
     }
+    
+    
+
+    
 
     
      
