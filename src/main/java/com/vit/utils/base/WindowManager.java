@@ -18,7 +18,8 @@ public class WindowManager {
 
     
     public void goBack(){
-        navigate.back();
+    	
+    	navigate.back();
     }
 
     public void goForward(){
