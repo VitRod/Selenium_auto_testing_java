@@ -6,6 +6,11 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
 
 public class FileUploadTests extends BaseTests {
+	
+	@Test
+    public void testFileUpload(){
+	
+	}
 
    
 }  
