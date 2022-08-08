@@ -16,12 +16,12 @@ public class WindowManager {
    	   navigate = driver.navigate();
     }
    
-
-    
     public void goBack(){
-    	
     	navigate.back();
     }
+    	
+    
+    
 
     public void goForward(){
         
