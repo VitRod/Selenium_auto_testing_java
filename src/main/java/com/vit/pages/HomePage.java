@@ -18,8 +18,11 @@ public class HomePage {
     }
     
    
-
-
+    public FileUploadPage clickFileUpload(){
+        clickLink("File Upload");
+        return new FileUploadPage(driver);
+    }
+   
     
 
     private void clickLink(String linkText){
