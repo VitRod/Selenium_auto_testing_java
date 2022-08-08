@@ -53,7 +53,8 @@ public class WindowManager {
             System.out.println("Current window title: " + driver.getTitle());
 
             if(tabTitle.equals(driver.getTitle())){
-                break;    
+                
+            	break;  
             }    
         }                       
     }   
