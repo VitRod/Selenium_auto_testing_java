@@ -44,6 +44,8 @@ public class AlertsPage {
         driver.switchTo().alert().sendKeys(text);
     }
 
+    
+    
     public String getResult(){
         return driver.findElement(results).getText();
     }
