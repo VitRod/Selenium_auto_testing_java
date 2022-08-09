@@ -6,9 +6,9 @@ import org.openqa.selenium.WebDriver;
 
 public class WindowManager {
 
-    
 	private WebDriver driver;
-    private WebDriver.Navigation navigate;
+	private WebDriver.Navigation navigate;
+    
 
     public WindowManager(WebDriver driver){
     	this.driver = driver;   
@@ -36,16 +36,11 @@ public class WindowManager {
 
     public void switchToTab(String tabTitle){
         Set<String> windows = driver.getWindowHandles();
-
-        
         System.out.println("Number of tabs: " + windows.size());
-
         System.out.println("Window handles:");
-        
         windows.forEach(System.out::println);
-
+        
         for(String window : windows){
-            
         	System.out.println("Switching to window: " + window);
             driver.switchTo().window(window);
 
@@ -56,16 +51,22 @@ public class WindowManager {
             	break;  
             }    
         }                       
-    }   
-     
+      }   
+          
     public void switchToNewTab(){
-        
     	Set<String> windows = driver.getWindowHandles();
-        
     	windows.forEach(driver.switchTo()::window);
     }
+}      	
+  
+    
+        
+    	
+        
+    	
+    
 
-}
+
 
     
     
