@@ -53,11 +53,11 @@ public class WindowManager {
 	    	Set<String> windows = driver.getWindowHandles();
 	    	windows.forEach(driver.switchTo()::window);
 	    }
-    
+} 
 
    
     
-}      	
+     	
   
     
         
