@@ -19,11 +19,11 @@ public class WindowManager {
     	navigate.back();
     }
     
-    	
     public void goForward(){
         
     	navigate.forward();
-    }
+    }	
+    
     
     public void refreshPage(){
         navigate.refresh();
