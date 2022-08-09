@@ -28,14 +28,14 @@ public class AlertsPage {
         driver.findElement(triggerPromptButton).click();
     }
 
+    
+
+    
+
+    
     public void alert_clickToAccept(){
         driver.switchTo().alert().accept();
     }
-
-    
-
-    
-
     public void alert_clickToDismiss(){
         driver.switchTo().alert().dismiss();
     }
