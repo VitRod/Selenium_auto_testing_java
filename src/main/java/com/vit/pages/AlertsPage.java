@@ -41,10 +41,10 @@ public class AlertsPage {
     }
 
     
+    
     public void alert_setInput(String text){
         driver.switchTo().alert().sendKeys(text);
     }
-    
     
     public String getResult(){
         return driver.findElement(results).getText();
