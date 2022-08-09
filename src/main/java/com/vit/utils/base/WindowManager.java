@@ -64,6 +64,7 @@ public class WindowManager {
         
     	windows.forEach(driver.switchTo()::window);
     }
+
 }
 
     
