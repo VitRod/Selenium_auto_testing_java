@@ -29,8 +29,8 @@ public class WindowManager {
     }
     
     public void goTo(String url){
-        
     	navigate.to(url);
+    	
     }
     
 
