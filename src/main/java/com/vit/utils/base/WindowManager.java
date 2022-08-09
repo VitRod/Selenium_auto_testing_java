@@ -10,11 +10,11 @@ public class WindowManager {
 	private WebDriver driver;
     private WebDriver.Navigation navigate;
 
-    
     public WindowManager(WebDriver driver){
     	this.driver = driver;   
    	   navigate = driver.navigate();
     }
+    
    
     public void goBack(){
     	navigate.back();
@@ -64,6 +64,7 @@ public class WindowManager {
         
     	windows.forEach(driver.switchTo()::window);
     }
+
 }
 
     
