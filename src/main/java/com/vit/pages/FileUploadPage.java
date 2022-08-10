@@ -10,16 +10,16 @@ public class FileUploadPage {
 	private By uploadButton = By.id("file-submit");
 	private By uploadedFiles = By.id("uploaded-files");
     
-	 public FileUploadPage(WebDriver driver){
-	        this.driver = driver;
-	    }
+	 
 
 	 
    
 	 
 	    
 	 
-	 
+	public FileUploadPage(WebDriver driver){
+        this.driver = driver;
+    }
 	 
 	 public void clickUploadButton(){
 	        driver.findElement(uploadButton).click();
