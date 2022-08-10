@@ -36,13 +36,13 @@ public class AlertsPage {
         driver.switchTo().alert().dismiss();
     }
     
-
-    
-    
-    
     public String alert_getText(){
         return driver.switchTo().alert().getText();
     }
+    
+    
+    
+    
     public void alert_setInput(String text){
         driver.switchTo().alert().sendKeys(text);
     }
