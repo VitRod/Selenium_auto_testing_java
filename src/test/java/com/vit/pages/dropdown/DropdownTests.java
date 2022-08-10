@@ -10,7 +10,9 @@ public class DropdownTests extends BaseTests {
 
     @Test
     public void testSelectOption(){
-        var dropDownPage = homePage.clickDropDown();
+    	var dropDownPage = homePage.clickDropDown();
+    	
+        
 
         String option = "Option 1";
         dropDownPage.selectFromDropDown(option);
