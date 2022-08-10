@@ -20,6 +20,12 @@ public class HomePage {
         clickLink("File Upload");
         return new FileUploadPage(driver);
     }
+    
+    public DropdownPage clickDropDown(){
+        clickLink("Dropdown");
+        return new DropdownPage(driver);
+    }
+    
    
     private void clickLink(String linkText){
         driver.findElement(By.linkText(linkText)).click();
