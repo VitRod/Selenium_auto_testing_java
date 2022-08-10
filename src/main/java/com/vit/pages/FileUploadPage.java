@@ -28,15 +28,15 @@ public class FileUploadPage {
 	        clickUploadButton();
 	    }
 	 
-	 public String getUploadedFiles(){
-	        return driver.findElement(uploadedFiles).getText();
-	    }
+	 
     
     
     
     
 
-    
+	 public String getUploadedFiles(){
+	        return driver.findElement(uploadedFiles).getText();
+	    }
 
 }
 
