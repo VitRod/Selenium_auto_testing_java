@@ -36,10 +36,7 @@ public class BaseTests {
         driver.quit();    
     }
            
-	
-    
-
-    @AfterMethod
+	@AfterMethod
     public void recordFailure(ITestResult result){
         if(ITestResult.FAILURE == result.getStatus())
         {
@@ -52,6 +49,9 @@ public class BaseTests {
             }
         }
     }
+    
+
+    
 
     public WindowManager getWindowManager(){
         return new WindowManager(driver);
