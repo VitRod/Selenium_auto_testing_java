@@ -48,8 +48,8 @@ public class AlertsPage {
         return driver.findElement(results).getText();
     }
     
+}  
     
     
-    
-}
+
 
