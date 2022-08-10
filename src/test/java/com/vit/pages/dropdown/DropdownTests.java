@@ -12,9 +12,9 @@ public class DropdownTests extends BaseTests {
     public void testSelectOption(){
     	var dropDownPage = homePage.clickDropDown();
     	
-        
+    	String option = "Option 1";
 
-        String option = "Option 1";
+        
         dropDownPage.selectFromDropDown(option);
         var selectedOptions = dropDownPage.getSelectedOptions();
         assertEquals(selectedOptions.size(), 1, "Incorrect number of selections");
