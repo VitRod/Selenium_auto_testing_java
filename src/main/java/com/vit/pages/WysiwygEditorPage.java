@@ -20,15 +20,15 @@ public class WysiwygEditorPage {
         switchToMainArea();
     }
 
-    
-
-    
-
     public void setTextArea(String text){
         switchToEditArea();
         driver.findElement(textArea).sendKeys(text);
         switchToMainArea();
     }
+
+    
+
+    
 
     public String getTextFromEditor(){
         switchToEditArea();
