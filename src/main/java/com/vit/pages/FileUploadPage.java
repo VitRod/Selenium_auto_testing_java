@@ -14,12 +14,12 @@ public class FileUploadPage {
 	        this.driver = driver;
 	    }
 
-    
+	 public void clickUploadButton(){
+	        driver.findElement(uploadButton).click();
+	    }
    
 
-    public void clickUploadButton(){
-        driver.findElement(uploadButton).click();
-    }
+    
 
     /**
      * Provides path of file to the form then clicks Upload button
