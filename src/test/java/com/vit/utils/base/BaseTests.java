@@ -54,15 +54,15 @@ public class BaseTests {
         return new WindowManager(driver);
     }
     
-
-    
-
-    private ChromeOptions getChromeOptions(){
+	private ChromeOptions getChromeOptions(){
         ChromeOptions options = new ChromeOptions();
         options.addArguments("disable-infobars");
         //options.setHeadless(true);
         return options;
     }
+    
+
+    
 
     public CookieManager getCookieManager(){
         return new CookieManager(driver);
