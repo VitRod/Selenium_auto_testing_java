@@ -32,14 +32,14 @@ public class AlertsPage {
         driver.switchTo().alert().accept();
     }
     
-
-    
-
-    
-    
     public void alert_clickToDismiss(){
         driver.switchTo().alert().dismiss();
     }
+    
+
+    
+    
+    
     public String alert_getText(){
         return driver.switchTo().alert().getText();
     }
