@@ -23,15 +23,15 @@ public class FileUploadPage {
 	     * @param absolutePathOfFile The complete path of the file to upload
 	     */
 	    
-    
+	 public void uploadFile(String absolutePathOfFile){
+	        driver.findElement(inputField).sendKeys(absolutePathOfFile);
+	        clickUploadButton();
+	    }
 
     
     
     
-    public void uploadFile(String absolutePathOfFile){
-        driver.findElement(inputField).sendKeys(absolutePathOfFile);
-        clickUploadButton();
-    }
+    
 
     public String getUploadedFiles(){
         return driver.findElement(uploadedFiles).getText();
