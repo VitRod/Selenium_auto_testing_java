@@ -16,12 +16,12 @@ public class HomePage {
         return new AlertsPage(driver);
     }
     
-    
-   
     public FileUploadPage clickFileUpload(){
         clickLink("File Upload");
         return new FileUploadPage(driver);
     }
+   
+   
    
     
 
