@@ -50,12 +50,12 @@ public class BaseTests {
         }
     }
     
-
-    
-
-    public WindowManager getWindowManager(){
+	public WindowManager getWindowManager(){
         return new WindowManager(driver);
     }
+    
+
+    
 
     private ChromeOptions getChromeOptions(){
         ChromeOptions options = new ChromeOptions();
