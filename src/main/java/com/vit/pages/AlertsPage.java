@@ -40,12 +40,12 @@ public class AlertsPage {
         return driver.switchTo().alert().getText();
     }
     
-    
-    
-    
     public void alert_setInput(String text){
         driver.switchTo().alert().sendKeys(text);
     }
+    
+    
+    
     
     public String getResult(){
         return driver.findElement(results).getText();
