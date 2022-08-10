@@ -15,9 +15,9 @@ public class FrameTests extends BaseTests {
     	String text1 = "hello ";
         String text2 = "world";
 
-        
-
         editorPage.setTextArea(text1);
+
+    
         editorPage.decreaseIndention();
         editorPage.setTextArea(text2);
 
