@@ -11,11 +11,11 @@ public class HomePage {
         this.driver = driver;
     }
 
-    
     public AlertsPage clickJavaScriptAlerts(){
         clickLink("JavaScript Alerts");
         return new AlertsPage(driver);
     }
+    
     
    
     public FileUploadPage clickFileUpload(){
