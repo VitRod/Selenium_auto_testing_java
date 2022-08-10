@@ -9,7 +9,9 @@ public class FrameTests extends BaseTests {
 
     @Test
     public void testWysiwyg(){
-        var editorPage = homePage.clickWysiwygEditor();
+    	var editorPage = homePage.clickWysiwygEditor();
+    	
+        
         editorPage.clearTextArea();
 
         String text1 = "hello ";
