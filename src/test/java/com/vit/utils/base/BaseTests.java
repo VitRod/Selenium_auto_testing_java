@@ -31,12 +31,13 @@ public class BaseTests {
         homePage = new HomePage(driver);
     }
            
-    
-           
-    @AfterClass
+	@AfterClass
     public void tearDown(){
         driver.quit();    
     }
+           
+	
+    
 
     @AfterMethod
     public void recordFailure(ITestResult result){
