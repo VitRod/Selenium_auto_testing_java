@@ -32,12 +32,12 @@ public class FileUploadPage {
         return driver.findElement(uploadedFiles).getText();
     }
 	
-	 
+} 
 	 
     
 	 
 
 	 
 
-}
+
 
