@@ -18,20 +18,20 @@ public class BaseTests {
 	private EventFiringWebDriver driver;
 	protected HomePage homePage;
     
-    
-
-    @BeforeClass
+	@BeforeClass
     public void setUp(){
         System.setProperty("webdriver.chrome.driver", ".\\src\\main\\resources\\chromedriver.exe");
         driver = new EventFiringWebDriver(new ChromeDriver(getChromeOptions()));
         driver.register(new EventReporter());
     }
-           
-    @BeforeMethod    
+
+	@BeforeMethod    
     public void goHome(){
         driver.get("https://the-internet.herokuapp.com/");
         homePage = new HomePage(driver);
     }
+           
+    
            
     @AfterClass
     public void tearDown(){
