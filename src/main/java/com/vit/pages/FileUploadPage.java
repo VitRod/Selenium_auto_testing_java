@@ -18,13 +18,13 @@ public class FileUploadPage {
 	        driver.findElement(uploadButton).click();
 	    }
    
-
+	 /**
+	     * Provides path of file to the form then clicks Upload button
+	     * @param absolutePathOfFile The complete path of the file to upload
+	     */
+	    
     
 
-    /**
-     * Provides path of file to the form then clicks Upload button
-     * @param absolutePathOfFile The complete path of the file to upload
-     */
     
     
     
