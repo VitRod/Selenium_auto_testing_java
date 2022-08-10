@@ -27,15 +27,16 @@ public class FileUploadPage {
 	        driver.findElement(inputField).sendKeys(absolutePathOfFile);
 	        clickUploadButton();
 	    }
-
+	 
+	 public String getUploadedFiles(){
+	        return driver.findElement(uploadedFiles).getText();
+	    }
     
     
     
     
 
-    public String getUploadedFiles(){
-        return driver.findElement(uploadedFiles).getText();
-    }
+    
 
 }
 
