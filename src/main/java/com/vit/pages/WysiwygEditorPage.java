@@ -17,12 +17,12 @@ public class WysiwygEditorPage {
     public void clearTextArea(){
         switchToEditArea();
         driver.findElement(textArea).clear();
-    
+        switchToMainArea();
+    }
 	
    
        
-        switchToMainArea();
-    }
+       
 
     public void setTextArea(String text){
         switchToEditArea();
