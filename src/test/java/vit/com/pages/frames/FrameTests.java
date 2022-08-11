@@ -12,10 +12,10 @@ public class FrameTests extends BaseTests {
     	var editorPage = homePage.clickWysiwygEditor();
     	editorPage.clearTextArea();
     
-    	
-        
     	String text1 = "hello ";
         String text2 = "world";
+        
+    	
 
         editorPage.setTextArea(text1);
         editorPage.decreaseIndention();
