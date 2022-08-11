@@ -25,13 +25,12 @@ public class BaseTests {
         driver.register(new EventReporter());
     }
 
-	@BeforeMethod    
-    public void goHome(){
-       
+	
        
            
 	
-           
+	@BeforeMethod    
+    public void goHome(){   
 		driver.get("https://the-internet.herokuapp.com/");
         homePage = new HomePage(driver);
     } 
