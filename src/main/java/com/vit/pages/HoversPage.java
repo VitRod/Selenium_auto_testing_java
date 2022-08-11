@@ -39,14 +39,14 @@ public class HoversPage {
 	        }
         
 		 public String getTitle(){
-       
+			 return caption.findElement(header).getText();
+	    }
 
        
            
 
         
-            return caption.findElement(header).getText();
-        }
+            
 
         public String getLink(){
             return caption.findElement(link).getAttribute("href");
