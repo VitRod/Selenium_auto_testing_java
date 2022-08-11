@@ -27,13 +27,13 @@ public class HoversPage {
        
 	public class FigureCaption{
 		private WebElement caption;
-        
+		private By header = By.tagName("h5");
    
 
     
 
         
-        private By header = By.tagName("h5");
+        
         private By link = By.tagName("a");
 
         public FigureCaption(WebElement caption){
