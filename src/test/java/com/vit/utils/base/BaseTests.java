@@ -46,14 +46,14 @@ public class BaseTests {
                 Files.move(screenshot, new File("resources/screenshots/" + result.getName() + ".png"));
             }catch(IOException e){
                 e.printStackTrace();
+       
+    
+	
+    
+	
             }
         }
     }
-    
-	
-    
-	
-    
 
 	public WindowManager getWindowManager(){
         return new WindowManager(driver);
