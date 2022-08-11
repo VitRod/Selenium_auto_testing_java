@@ -14,10 +14,6 @@ import java.io.File;
 import java.io.IOException;
 
 public class BaseTests {
-
-	
-	
-    
 	
 	private EventFiringWebDriver driver;
 	protected HomePage homePage;
