@@ -26,11 +26,11 @@ public class WysiwygEditorPage {
         switchToMainArea();
     }
 
-    
+    public String getTextFromEditor(){
        
         
 
-    public String getTextFromEditor(){
+   
         switchToEditArea();
         String text = driver.findElement(textArea).getText();
         switchToMainArea();
