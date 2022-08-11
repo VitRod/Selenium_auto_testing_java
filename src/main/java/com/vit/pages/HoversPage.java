@@ -22,12 +22,12 @@ public class HoversPage {
         WebElement figure = driver.findElements(figureBox).get(index - 1);
         Actions actions = new Actions(driver);
         actions.moveToElement(figure).perform();
-    
+        return new FigureCaption(figure.findElement(boxCaption));
 
        
         
 
-        return new FigureCaption(figure.findElement(boxCaption));
+        
     }
 
     public class FigureCaption{
