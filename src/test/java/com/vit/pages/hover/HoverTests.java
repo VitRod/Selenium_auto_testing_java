@@ -16,10 +16,10 @@ public class HoverTests extends BaseTests {
 		assertEquals(caption.getTitle(), "name: user1", "Caption title incorrect");
 		assertEquals(caption.getLinkText(), "View profile", "Caption link text incorrect");
 		 assertTrue(caption.getLink().endsWith("/users/1"), "Link incorrect");
-       
+	}
+	}
         
         
         
        
-    }
-}
+    
