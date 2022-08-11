@@ -26,15 +26,22 @@ public class HomePage {
         return new DropdownPage(driver);
     }
     
+    public WysiwygEditorPage clickWysiwygEditor(){
+        clickLink("WYSIWYG Editor");
+        return new WysiwygEditorPage(driver);
+    }
+    
+    public HoversPage clickHovers(){
+        clickLink("Hovers");
+        return new HoversPage(driver);
+    }
+    
    
     private void clickLink(String linkText){
         driver.findElement(By.linkText(linkText)).click();
     }
     
-    public WysiwygEditorPage clickWysiwygEditor(){
-        clickLink("WYSIWYG Editor");
-        return new WysiwygEditorPage(driver);
-    }
+    
    
 }
 
