@@ -34,13 +34,13 @@ public class HoversPage {
 	            this.caption = caption;
 	        }
 
-        
+		 public boolean isCaptionDisplayed(){
         
         
 
        
 
-        public boolean isCaptionDisplayed(){
+       
             return caption.isDisplayed();
         }
 
