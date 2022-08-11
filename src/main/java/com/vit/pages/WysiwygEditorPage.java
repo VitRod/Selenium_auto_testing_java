@@ -44,11 +44,11 @@ public class WysiwygEditorPage {
     private void switchToMainArea(){
     	driver.switchTo().parentFrame();
     }
-       
+}  
 
    
         
-}
+
     
 
    
