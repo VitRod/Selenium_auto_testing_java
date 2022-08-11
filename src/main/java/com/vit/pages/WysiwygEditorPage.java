@@ -10,16 +10,16 @@ public class WysiwygEditorPage {
     private By textArea = By.id("tinymce");
     private By decreaseIndentButton = By.cssSelector("button[title='Increase indent']");
 
-	
-    
-    
-	
     public WysiwygEditorPage(WebDriver driver){
         this.driver = driver;
     }
-	
+    
     public void clearTextArea(){
         switchToEditArea();
+	
+    
+	
+   
         driver.findElement(textArea).clear();
         switchToMainArea();
     }
