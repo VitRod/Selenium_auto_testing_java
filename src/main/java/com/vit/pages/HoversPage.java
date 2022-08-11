@@ -35,14 +35,14 @@ public class HoversPage {
 	        }
 
 		 public boolean isCaptionDisplayed(){
-        
+			 return caption.isDisplayed();
+	        }
         
 
        
 
        
-            return caption.isDisplayed();
-        }
+           
 
         public String getTitle(){
             return caption.findElement(header).getText();
