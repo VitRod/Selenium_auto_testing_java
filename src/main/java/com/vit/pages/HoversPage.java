@@ -25,14 +25,14 @@ public class HoversPage {
         return new FigureCaption(figure.findElement(boxCaption));
 	 }
        
-        
-
+	public class FigureCaption{
+		private WebElement caption;
         
    
 
-    public class FigureCaption{
+    
 
-        private WebElement caption;
+        
         private By header = By.tagName("h5");
         private By link = By.tagName("a");
 
