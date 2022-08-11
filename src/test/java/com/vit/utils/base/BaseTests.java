@@ -38,13 +38,13 @@ public class BaseTests {
            
 	@AfterMethod
     public void recordFailure(ITestResult result){
-        if(ITestResult.FAILURE == result.getStatus())
-        {
+        
            
             
             
        
-    
+		if(ITestResult.FAILURE == result.getStatus())
+        {
         	 var camera = (TakesScreenshot)driver;
             File screenshot = camera.getScreenshotAs(OutputType.FILE);
             try{
