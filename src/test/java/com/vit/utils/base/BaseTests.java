@@ -18,12 +18,12 @@ public class BaseTests {
 	private EventFiringWebDriver driver;
 	protected HomePage homePage;
     
-	@BeforeClass
-    public void setUp(){
+	
         
         
        
-
+	@BeforeClass
+    public void setUp(){
 		System.setProperty("webdriver.chrome.driver", ".\\src\\main\\resources\\chromedriver.exe");
         driver = new EventFiringWebDriver(new ChromeDriver(getChromeOptions()));
         driver.register(new EventReporter());
