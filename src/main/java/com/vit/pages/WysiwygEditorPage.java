@@ -34,13 +34,13 @@ public class WysiwygEditorPage {
     }
         
     public void decreaseIndention(){
-        
+    	driver.findElement(decreaseIndentButton).click();
+    }
+
        
 
    
-        driver.findElement(decreaseIndentButton).click();
-    }
-
+        
     private void switchToEditArea(){
         driver.switchTo().frame(editorIframeId);
     }
