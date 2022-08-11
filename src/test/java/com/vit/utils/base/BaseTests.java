@@ -36,13 +36,13 @@ public class BaseTests {
         driver.quit();    
     }
            
-	@AfterMethod
-    public void recordFailure(ITestResult result){
+	
         
            
             
             
-       
+	@AfterMethod
+    public void recordFailure(ITestResult result){
 		if(ITestResult.FAILURE == result.getStatus())
         {
         	 var camera = (TakesScreenshot)driver;
