@@ -7,9 +7,11 @@ import static org.testng.Assert.assertEquals;
 
 public class FrameTests extends BaseTests {
 
-    @Test
+	@Test
     public void testWysiwyg(){
     	var editorPage = homePage.clickWysiwygEditor();
+	
+    
     	editorPage.clearTextArea();
         
     	String text1 = "hello ";
