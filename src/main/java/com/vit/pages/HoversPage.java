@@ -7,10 +7,10 @@ import org.openqa.selenium.interactions.Actions;
 
 public class HoversPage {
 	
-	
-    private WebDriver driver;
+	private WebDriver driver;
+	private By figureBox = By.className("figure");
 
-    private By figureBox = By.className("figure");
+    
     private By boxCaption = By.className("figcaption");
 
     public HoversPage(WebDriver driver){
