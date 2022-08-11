@@ -22,12 +22,12 @@ public class BaseTests {
     public void setUp(){
         System.setProperty("webdriver.chrome.driver", ".\\src\\main\\resources\\chromedriver.exe");
         driver = new EventFiringWebDriver(new ChromeDriver(getChromeOptions()));
-        driver.register(new EventReporter());
-    }
+       
 
 	
        
-           
+        driver.register(new EventReporter());
+    }
 	
 	@BeforeMethod    
     public void goHome(){   
