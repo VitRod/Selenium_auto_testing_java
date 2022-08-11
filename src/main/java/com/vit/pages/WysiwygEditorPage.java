@@ -33,11 +33,11 @@ public class WysiwygEditorPage {
     	 return text;
     }
         
-        
+    public void decreaseIndention(){
         
        
 
-    public void decreaseIndention(){
+   
         driver.findElement(decreaseIndentButton).click();
     }
 
