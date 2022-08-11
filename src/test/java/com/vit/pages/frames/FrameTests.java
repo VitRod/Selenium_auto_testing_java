@@ -1,4 +1,4 @@
-package vit.com.pages.frames;
+package com.vit.pages.frames;
 
 import com.vit.utils.base.BaseTests;
 import org.testng.annotations.Test;
