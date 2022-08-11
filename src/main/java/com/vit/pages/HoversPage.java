@@ -11,11 +11,11 @@ public class HoversPage {
 	private By figureBox = By.className("figure");
 	private By boxCaption = By.className("figcaption");
     
-    
-
-    public HoversPage(WebDriver driver){
+	public HoversPage(WebDriver driver){
         this.driver = driver;
     }
+
+    
 
     /**
      * @param index starts at 1
