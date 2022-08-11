@@ -22,11 +22,11 @@ public class WysiwygEditorPage {
 	
     public void setTextArea(String text){
         switchToEditArea();
-       
+        driver.findElement(textArea).sendKeys(text);
        
 
     
-        driver.findElement(textArea).sendKeys(text);
+       
         switchToMainArea();
     }
 
