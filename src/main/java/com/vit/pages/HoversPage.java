@@ -47,13 +47,13 @@ public class HoversPage {
 	    }
    
 		 public String getLinkText(){
-            
+			 return caption.findElement(link).getText();
 
         
             
 
         
-            return caption.findElement(link).getText();
+           
         }
     }
 }
