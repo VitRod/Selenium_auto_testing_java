@@ -16,11 +16,11 @@ public class WysiwygEditorPage {
     
     public void clearTextArea(){
         switchToEditArea();
-	
+        driver.findElement(textArea).clear();
     
 	
    
-        driver.findElement(textArea).clear();
+       
         switchToMainArea();
     }
 
