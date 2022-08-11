@@ -15,11 +15,11 @@ import java.io.IOException;
 
 public class BaseTests {
 
-	private EventFiringWebDriver driver;
+	
 	
     
 	
-        
+	private EventFiringWebDriver driver;
 	protected HomePage homePage;
        
 	@BeforeClass
