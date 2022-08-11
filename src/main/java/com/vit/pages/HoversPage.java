@@ -30,15 +30,15 @@ public class HoversPage {
 		private By header = By.tagName("h5");
 		private By link = By.tagName("a");
 
-    
+		 public FigureCaption(WebElement caption){
+	            this.caption = caption;
+	        }
 
         
         
         
 
-        public FigureCaption(WebElement caption){
-            this.caption = caption;
-        }
+       
 
         public boolean isCaptionDisplayed(){
             return caption.isDisplayed();
