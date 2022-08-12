@@ -9,8 +9,13 @@ import static org.testng.Assert.*;
 
 public class LoginTests extends BaseTests {
 
-    @Test
+	@Test
     public void testSuccessfulLogin(){
+	
+	
+	
+	
+    
         LoginPage loginPage = homePage.clickFormAuthentication();
         loginPage.setUsername("tomsmith");
         loginPage.setPassword("SuperSecretPassword!");
