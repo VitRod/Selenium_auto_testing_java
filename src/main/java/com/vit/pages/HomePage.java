@@ -55,14 +55,14 @@ public class HomePage {
 	        driver.findElement(By.linkText(linkText)).click();
 	    }
         
-       
+} 
     
    
     
     
     
    
-}
+
 
     
 
