@@ -31,14 +31,14 @@ public class HomePage {
         return new DropdownPage(driver);
     }
     
-	
-    
-    
-    
-    public WysiwygEditorPage clickWysiwygEditor(){
+	public WysiwygEditorPage clickWysiwygEditor(){
         clickLink("WYSIWYG Editor");
         return new WysiwygEditorPage(driver);
     }
+    
+    
+    
+    
     
     public HoversPage clickHovers(){
         clickLink("Hovers");
