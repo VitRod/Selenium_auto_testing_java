@@ -13,14 +13,14 @@ public class HomePage {
 	
 	public AlertsPage clickJavaScriptAlerts(){
 		 clickLink("JavaScript Alerts");
-    
+		 return new AlertsPage(driver);
+    }
 
     
 
     
        
-        return new AlertsPage(driver);
-    }
+        
     
     public FileUploadPage clickFileUpload(){
         clickLink("File Upload");
