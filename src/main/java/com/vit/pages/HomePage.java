@@ -42,11 +42,11 @@ public class HomePage {
 	 }
     
 	 public LargeAndDeepDomPage clickLargeAndDeepDom(){
-        
+		 clickLink("Large & Deep DOM");
    
     
    
-        clickLink("Large & Deep DOM");
+        
         return new LargeAndDeepDomPage(driver);
     }
 
