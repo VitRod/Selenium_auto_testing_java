@@ -48,12 +48,12 @@ public class HomePage {
     
 	 public InfiniteScrollPage clickInfiniteScroll(){
 		 clickLink("Infinite Scroll");
-        
+		 return new InfiniteScrollPage(driver);
+	    }
 
    
         
-        return new InfiniteScrollPage(driver);
-    }
+       
     
    
     private void clickLink(String linkText){
