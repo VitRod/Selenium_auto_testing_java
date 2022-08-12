@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.vit.pages.dropdown.DropdownTests"/>
+      <class name="com.vit.utils.base.BaseTests"/>
+      <class name="com.vit.pages.frames.FrameTests"/>
+      <class name="com.vit.pages.alerts.AlertTests"/>
+      <class name="com.vit.pages.hover.HoverTests"/>
+      <class name="com.vit.pages.alerts.FileUploadTests"/>
+      <class name="com.vit.pages.javascript.JavaScriptTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

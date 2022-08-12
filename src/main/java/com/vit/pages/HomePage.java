@@ -21,11 +21,14 @@ public class HomePage {
         return new FileUploadPage(driver);
     }
 
-    
+	
        
         
     
-    
+	public LoginPage clickFormAuthentication(){
+        clickLink("Form Authentication");
+        return new LoginPage(driver);
+    }
     
     public DropdownPage clickDropDown(){
         clickLink("Dropdown");
@@ -40,6 +43,16 @@ public class HomePage {
     public HoversPage clickHovers(){
         clickLink("Hovers");
         return new HoversPage(driver);
+    }
+    
+    public LargeAndDeepDomPage clickLargeAndDeepDom(){
+        clickLink("Large & Deep DOM");
+        return new LargeAndDeepDomPage(driver);
+    }
+
+    public InfiniteScrollPage clickInfiniteScroll(){
+        clickLink("Infinite Scroll");
+        return new InfiniteScrollPage(driver);
     }
     
    
