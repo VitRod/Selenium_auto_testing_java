@@ -38,11 +38,11 @@ public class HomePage {
     
 	public HoversPage clickHovers(){
 		clickLink("Hovers");
-    
+		return new HoversPage(driver);
     
     
         
-        return new HoversPage(driver);
+        
     }
     
     public LargeAndDeepDomPage clickLargeAndDeepDom(){
