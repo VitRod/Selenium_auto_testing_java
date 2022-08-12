@@ -26,14 +26,14 @@ public class HomePage {
         return new LoginPage(driver);
     }
        
-        
-    
-	
-    
-    public DropdownPage clickDropDown(){
+	public DropdownPage clickDropDown(){
         clickLink("Dropdown");
         return new DropdownPage(driver);
     }
+    
+	
+    
+    
     
     public WysiwygEditorPage clickWysiwygEditor(){
         clickLink("WYSIWYG Editor");
