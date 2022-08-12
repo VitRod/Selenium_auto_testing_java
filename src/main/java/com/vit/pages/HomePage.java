@@ -21,14 +21,14 @@ public class HomePage {
         return new FileUploadPage(driver);
     }
 
-	
-       
-        
-    
 	public LoginPage clickFormAuthentication(){
         clickLink("Form Authentication");
         return new LoginPage(driver);
     }
+       
+        
+    
+	
     
     public DropdownPage clickDropDown(){
         clickLink("Dropdown");
