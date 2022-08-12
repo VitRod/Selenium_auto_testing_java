@@ -41,11 +41,11 @@ public class HomePage {
 		return new HoversPage(driver);
 	 }
     
-        
+	 public LargeAndDeepDomPage clickLargeAndDeepDom(){
         
    
     
-    public LargeAndDeepDomPage clickLargeAndDeepDom(){
+   
         clickLink("Large & Deep DOM");
         return new LargeAndDeepDomPage(driver);
     }
