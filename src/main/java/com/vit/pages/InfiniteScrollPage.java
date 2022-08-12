@@ -6,7 +6,9 @@ import org.openqa.selenium.WebDriver;
 
 public class InfiniteScrollPage {
 
-    private WebDriver driver;
+	private WebDriver driver;
+	
+    
     By textBlocks = By.className("jscroll-added");
 
     public InfiniteScrollPage(WebDriver driver){
