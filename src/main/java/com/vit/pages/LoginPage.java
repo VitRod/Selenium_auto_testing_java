@@ -26,7 +26,7 @@ public class LoginPage {
         driver.findElement(loginButton).click();
         return new SecureAreaPage(driver);
     
-
+	}
+	}
     
-    }
-}
+    
