@@ -43,12 +43,12 @@ public class HomePage {
     
 	 public LargeAndDeepDomPage clickLargeAndDeepDom(){
 		 clickLink("Large & Deep DOM");
-   
+		 return new LargeAndDeepDomPage(driver);
+	    }
     
    
         
-        return new LargeAndDeepDomPage(driver);
-    }
+        
 
     public InfiniteScrollPage clickInfiniteScroll(){
         clickLink("Infinite Scroll");
