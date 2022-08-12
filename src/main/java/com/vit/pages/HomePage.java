@@ -37,11 +37,11 @@ public class HomePage {
     }
     
 	public HoversPage clickHovers(){
+		clickLink("Hovers");
     
     
     
-    
-        clickLink("Hovers");
+        
         return new HoversPage(driver);
     }
     
