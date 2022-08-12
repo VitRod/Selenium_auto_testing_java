@@ -36,11 +36,11 @@ public class HomePage {
         return new WysiwygEditorPage(driver);
     }
     
+	public HoversPage clickHovers(){
     
     
     
     
-    public HoversPage clickHovers(){
         clickLink("Hovers");
         return new HoversPage(driver);
     }
