@@ -9,11 +9,11 @@ public class InfiniteScrollPage {
 	private WebDriver driver;
 	By textBlocks = By.className("jscroll-added");
     
-    
-
-    public InfiniteScrollPage(WebDriver driver){
+	public InfiniteScrollPage(WebDriver driver){
         this.driver = driver;
     }
+
+    
 
     /**
      * Scrolls until paragraph with index specified is in view
