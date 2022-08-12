@@ -47,11 +47,11 @@ public class HomePage {
 	    }
     
 	 public InfiniteScrollPage clickInfiniteScroll(){
-        
+		 clickLink("Infinite Scroll");
         
 
    
-        clickLink("Infinite Scroll");
+        
         return new InfiniteScrollPage(driver);
     }
     
