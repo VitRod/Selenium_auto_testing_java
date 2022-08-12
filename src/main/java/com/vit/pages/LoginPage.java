@@ -27,6 +27,6 @@ public class LoginPage {
         return new SecureAreaPage(driver);
     
 	}
-	}
+}
     
     
