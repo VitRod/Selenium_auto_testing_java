@@ -21,11 +21,11 @@ public class DynamicLoadingExample2Page {
 		 wait.until(ExpectedConditions.presenceOfElementLocated(loadedText));
 	   }
        
-        
+	 public boolean isStartButtonDisplayed(){
        
  
 
-    public boolean isStartButtonDisplayed(){
+   
         return driver.findElement(startButton).isDisplayed();
     }
 
