@@ -21,11 +21,11 @@ public class InfiniteScrollPage {
 		 String script = "window.scrollTo(0, document.body.scrollHeight)";
     
 		 JavascriptExecutor jsExecutor = (JavascriptExecutor)driver;
-        
+		 while(getNumberOfParagraphsPresent() < index){
+	            jsExecutor.executeScript(script);
         
 
-        while(getNumberOfParagraphsPresent() < index){
-            jsExecutor.executeScript(script);
+        
         }
     }
 
