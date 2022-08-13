@@ -15,11 +15,11 @@ public class DynamicLoadingExample2Page {
         this.driver = driver;
     }
     
-    
+	 public void clickStart() {
 
     
 
-    public void clickStart() {
+   
         driver.findElement(startButton).click();
         WebDriverWait wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.presenceOfElementLocated(loadedText));
