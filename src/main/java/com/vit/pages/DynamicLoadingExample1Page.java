@@ -26,8 +26,6 @@ public class DynamicLoadingExample1Page {
     	wait.until(ExpectedConditions.invisibilityOf(
                 driver.findElement(loadingIndicator)));
         
-        
-
         /* FLUENT WAIT */
 //        FluentWait wait = new FluentWait(driver)
 //                .withTimeout(Duration.ofSeconds(5))
