@@ -56,14 +56,14 @@ public class HomePage {
 	        return new DynamicLoadingPage(driver);
 	    }
 	 
-	 
-	 
-	
-
-	  public MultipleWindowsPage clickMultipleWindows(){
+	 public MultipleWindowsPage clickMultipleWindows(){
 	        clickLink("Multiple Windows");
 	        return new MultipleWindowsPage(driver);
 	    }
+	 
+	
+
+	  
 
 	 private void clickLink(String linkText){
 	        driver.findElement(By.linkText(linkText)).click();
