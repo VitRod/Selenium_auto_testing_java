@@ -30,6 +30,6 @@ public class InfiniteScrollPage {
 	        return driver.findElements(textBlocks).size();
 	    }
         
-
-   
 }
+   
+
