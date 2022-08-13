@@ -8,7 +8,7 @@ public class NavigationTests extends BaseTests {
     // this code to demonstrate window management
  
 	 @Test
-	    public void testNavigator(){
+	 public void testNavigator(){
 		 homePage.clickDynamicLoading().clickExample1();
 		 getWindowManager().goBack();
 		 getWindowManager().refreshPage();
@@ -16,11 +16,11 @@ public class NavigationTests extends BaseTests {
 		 getWindowManager().goTo("https://google.com");
 	 }  
         
-        
+	 @Test
+	 public void testSwitchTab(){
    
 
-    @Test
-    public void testSwitchTab(){
+    
         homePage.clickMultipleWindows().clickHere();
         getWindowManager().switchToTab("New Window");
     }
