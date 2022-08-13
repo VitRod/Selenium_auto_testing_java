@@ -8,11 +8,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class DynamicLoadingExample2Page {
 
 	private WebDriver driver;
-	
+	private By startButton = By.cssSelector("#start button");
 	
 	
     
-    private By startButton = By.cssSelector("#start button");
+    
     private By loadedText = By.id("finish");
 
     public DynamicLoadingExample2Page(WebDriver driver){
