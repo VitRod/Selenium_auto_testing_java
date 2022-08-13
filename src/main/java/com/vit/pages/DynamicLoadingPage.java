@@ -7,6 +7,9 @@ import org.openqa.selenium.interactions.Actions;
 
 public class DynamicLoadingPage {
 
+	
+	
+	
     private WebDriver driver;
     private String linkXpath_Format = ".//a[contains(text(), '%s')]";
     private By link_Example1 = By.xpath(String.format(linkXpath_Format, "Example 1"));
