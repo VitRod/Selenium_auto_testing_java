@@ -21,10 +21,10 @@ public class DynamicLoadingPage {
 		 return new DynamicLoadingExample1Page(driver);
 	 }
         
-        
+	 public DynamicLoadingExample2Page clickExample2(){
    
 
-    public DynamicLoadingExample2Page clickExample2(){
+   
         driver.findElement(link_Example2).click();
         return new DynamicLoadingExample2Page(driver);
     }
