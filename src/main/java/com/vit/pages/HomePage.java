@@ -51,11 +51,14 @@ public class HomePage {
 		 return new InfiniteScrollPage(driver);
 	    }
 	 
-	 
 	 public DynamicLoadingPage clickDynamicLoading(){
 	        clickLink("Dynamic Loading");
 	        return new DynamicLoadingPage(driver);
 	    }
+	 
+	 
+	 
+	
 
 	  public MultipleWindowsPage clickMultipleWindows(){
 	        clickLink("Multiple Windows");
