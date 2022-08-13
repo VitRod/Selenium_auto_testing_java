@@ -16,11 +16,11 @@ public class DynamicLoadingPage {
         this.driver = driver;
     }
     
+	 public DynamicLoadingExample1Page clickExample1(){
+		 driver.findElement(link_Example1).click();
 
-    
-
-    public DynamicLoadingExample1Page clickExample1(){
-        driver.findElement(link_Example1).click();
+   
+        
         return new DynamicLoadingExample1Page(driver);
     }
 
