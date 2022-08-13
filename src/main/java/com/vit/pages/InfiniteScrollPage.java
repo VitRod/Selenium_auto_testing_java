@@ -23,11 +23,11 @@ public class InfiniteScrollPage {
 		 JavascriptExecutor jsExecutor = (JavascriptExecutor)driver;
 		 while(getNumberOfParagraphsPresent() < index){
 	            jsExecutor.executeScript(script);
-        
+		 }
+	    }
 
         
-        }
-    }
+        
 
     private int getNumberOfParagraphsPresent(){
         return driver.findElements(textBlocks).size();
