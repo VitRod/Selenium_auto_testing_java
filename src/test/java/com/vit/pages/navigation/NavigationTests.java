@@ -21,7 +21,6 @@ public class NavigationTests extends BaseTests {
 		 homePage.clickMultipleWindows().clickHere();
 		 getWindowManager().switchToTab("New Window");
 	 }
-        
+}     
         
     
-}
