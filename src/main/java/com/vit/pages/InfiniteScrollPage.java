@@ -18,10 +18,10 @@ public class InfiniteScrollPage {
      * @param index 1-based
      */
 	 public void scrollToParagraph(int index){
-
+		 String script = "window.scrollTo(0, document.body.scrollHeight)";
     
    
-        String script = "window.scrollTo(0, document.body.scrollHeight)";
+        
         JavascriptExecutor jsExecutor = (JavascriptExecutor)driver;
 
         while(getNumberOfParagraphsPresent() < index){
