@@ -12,10 +12,10 @@ public class NavigationTests extends BaseTests {
 		 homePage.clickDynamicLoading().clickExample1();
 		 getWindowManager().goBack();
 		 getWindowManager().refreshPage();
+		 getWindowManager().goForward();
         
         
         
-        getWindowManager().goForward();
         getWindowManager().goTo("https://google.com");
     }
 
