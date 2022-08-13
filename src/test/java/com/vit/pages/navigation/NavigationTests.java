@@ -7,9 +7,11 @@ public class NavigationTests extends BaseTests {
 
     // this code to demonstrate window management
  
-
-    @Test
-    public void testNavigator(){
+	 @Test
+	    public void testNavigator(){
+	
+	
+   
         homePage.clickDynamicLoading().clickExample1();
         getWindowManager().goBack();
         getWindowManager().refreshPage();
