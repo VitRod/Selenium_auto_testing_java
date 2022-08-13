@@ -13,10 +13,10 @@ public class NavigationTests extends BaseTests {
 		 getWindowManager().goBack();
 		 getWindowManager().refreshPage();
 		 getWindowManager().goForward();
+		 getWindowManager().goTo("https://google.com");
         
         
         
-        getWindowManager().goTo("https://google.com");
     }
 
     @Test
