@@ -16,12 +16,12 @@ public class DynamicLoadingExample1Page {
     private By loadingIndicator = By.id("loading");
     private By loadedText = By.id("finish");
 
-	
-    
     public DynamicLoadingExample1Page(WebDriver driver){
         this.driver = driver;
     }
 
+    
+   
     public void clickStart(){
         driver.findElement(startButton).click();
         WebDriverWait wait = new WebDriverWait(driver, 5);
