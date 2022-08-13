@@ -22,10 +22,10 @@ public class DynamicLoadingPage {
 	 }
         
 	 public DynamicLoadingExample2Page clickExample2(){
-   
+		 driver.findElement(link_Example2).click();
 
    
-        driver.findElement(link_Example2).click();
+        
         return new DynamicLoadingExample2Page(driver);
     }
 
