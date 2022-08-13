@@ -26,10 +26,10 @@ public class InfiniteScrollPage {
 		 }
 	    }
 
-        
+	 private int getNumberOfParagraphsPresent(){
+	        return driver.findElements(textBlocks).size();
+	    }
         
 
-    private int getNumberOfParagraphsPresent(){
-        return driver.findElements(textBlocks).size();
-    }
+   
 }
