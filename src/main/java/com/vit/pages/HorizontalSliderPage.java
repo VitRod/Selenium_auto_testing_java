@@ -22,7 +22,7 @@ public class HorizontalSliderPage {
        
 	public String getSliderValue(){
 		 return driver.findElement(sliderValue).getText();
-    
+	 }
        
-    }
+   
 }
