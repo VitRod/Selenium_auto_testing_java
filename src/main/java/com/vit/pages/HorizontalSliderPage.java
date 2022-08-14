@@ -20,9 +20,9 @@ public class HorizontalSliderPage {
 		 }
 	 }
        
-   
+	public String getSliderValue(){
 
-    public String getSliderValue(){
+    
         return driver.findElement(sliderValue).getText();
     }
 }
