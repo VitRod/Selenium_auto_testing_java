@@ -11,9 +11,11 @@ import java.util.stream.Collectors;
 
 public class DropdownPage {
 
-    private WebDriver driver;
+	private WebDriver driver;
     private By dropdown = By.id("dropdown");
 
+	
+    
     public DropdownPage(WebDriver driver){
         this.driver = driver;
     }
