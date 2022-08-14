@@ -61,9 +61,19 @@ public class HomePage {
 	        return new MultipleWindowsPage(driver);
 	    }
 	 
+	 public ForgotPasswordPage clickForgotPassword(){
+	        clickLink("Forgot Password");
+	        return new ForgotPasswordPage(driver);
+	    }
+	 
 	 private void clickLink(String linkText){
 		 driver.findElement(By.linkText(linkText)).click();
 	  }
+	 
+	 public HorizontalSliderPage clickHorizonalSlider(){
+	        clickLink("Horizontal Slider");
+	        return new HorizontalSliderPage(driver);
+	    }
 } 
 	 
 	        
