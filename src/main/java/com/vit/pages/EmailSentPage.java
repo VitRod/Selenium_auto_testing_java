@@ -6,9 +6,9 @@ import org.openqa.selenium.WebDriver;
 public class EmailSentPage {
 
 	private WebDriver driver;
-	
+	private By contentArea = By.id("content");
     
-    private By contentArea = By.id("content");
+   
 
     public EmailSentPage(WebDriver driver){
         this.driver = driver;
