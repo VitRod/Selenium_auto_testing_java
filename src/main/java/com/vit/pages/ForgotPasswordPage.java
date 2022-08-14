@@ -22,13 +22,13 @@ public class ForgotPasswordPage {
 		 return new EmailSentPage(driver);
 	  } 
     	 
-    	 
+	 public EmailSentPage retrievePassword(String email){
+	    	enterEmail(email);
+	    	  return clickRetrievePassword();
+	    }
+	}   
   
        
-    public EmailSentPage retrievePassword(String email){
-    	enterEmail(email);
-    	  return clickRetrievePassword();
-    }
-}  
+   
     
 
