@@ -15,10 +15,10 @@ public class ForgotPasswordPage {
    
 	 public void enterEmail(String email){
 		 driver.findElement(emailField).sendKeys(email);
-
+	 }
     
        
-    }
+   
 
     public EmailSentPage clickRetrievePassword(){
     	 driver.findElement(retrievePasswordButton).click();
