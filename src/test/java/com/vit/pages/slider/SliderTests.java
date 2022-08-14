@@ -13,7 +13,7 @@ public class SliderTests extends BaseTests {
         var sliderPage = homePage.clickHorizonalSlider();
         sliderPage.setSliderValue(value);
         
-        
         assertEquals(sliderPage.getSliderValue(), value, "Slider value is incorrect");
+        
     }
 }
