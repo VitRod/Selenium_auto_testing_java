@@ -26,6 +26,6 @@ public class ForgotPasswordPage {
     	enterEmail(email);
     	  return clickRetrievePassword();
     }
-      
+}  
     
-}
+
