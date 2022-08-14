@@ -16,11 +16,11 @@ public class AlertsPage {
         this.driver = driver;
     }
 
-    
+	public void triggerAlert(){
 
     
 
-    public void triggerAlert(){
+    
         driver.findElement(triggerAlertButton).click();
     }
 
