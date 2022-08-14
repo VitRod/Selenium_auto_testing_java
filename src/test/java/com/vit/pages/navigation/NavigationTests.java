@@ -16,13 +16,13 @@ public class NavigationTests extends BaseTests {
 		 getWindowManager().goTo("https://google.com");
 	 }  
 	
-	 
-        
-	 @Test
+	@Test
 	 public void testSwitchTab(){
 		 homePage.clickMultipleWindows().clickHere();
 		 getWindowManager().switchToTab("New Window");
 	 }
+        
+	 
 }     
         
     
