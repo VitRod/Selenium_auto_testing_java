@@ -12,9 +12,9 @@ public class EmailSentPage {
         this.driver = driver;
     }
 
-    
-
-    public String getMessage(){
+	public String getMessage(){
         return driver.findElement(contentArea).getText();
     }
 }
+
+    
