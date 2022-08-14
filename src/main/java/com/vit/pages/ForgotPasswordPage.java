@@ -23,9 +23,9 @@ public class ForgotPasswordPage {
     } 
        
     public EmailSentPage retrievePassword(String email){
-
+    	enterEmail(email);
     
-        enterEmail(email);
+        
         return clickRetrievePassword();
     }
 }
