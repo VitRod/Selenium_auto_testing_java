@@ -12,13 +12,13 @@ public class AlertsPage {
 	
 	private By results = By.id("result");
     
-    
-
-    
-
-    public AlertsPage(WebDriver driver){
+	public AlertsPage(WebDriver driver){
         this.driver = driver;
     }
+
+    
+
+    
 
     public void triggerAlert(){
         driver.findElement(triggerAlertButton).click();
