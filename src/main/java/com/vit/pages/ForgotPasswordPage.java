@@ -20,10 +20,10 @@ public class ForgotPasswordPage {
 	 public EmailSentPage clickRetrievePassword(){
 		 driver.findElement(retrievePasswordButton).click();
 		 return new EmailSentPage(driver);
-    
+	  } 
     	 
     	 
-    } 
+  
        
     public EmailSentPage retrievePassword(String email){
     	enterEmail(email);
