@@ -10,11 +10,11 @@ public class HorizontalSliderPage {
 	private By sliderValue = By.id("range");
 	private By slider = By.cssSelector(".sliderContainer input");
     
-    
-
-    public HorizontalSliderPage(WebDriver driver){
+	public HorizontalSliderPage(WebDriver driver){
         this.driver = driver;
     }
+
+    
 
     public void setSliderValue(String value){
         while(!getSliderValue().equals(value)){
