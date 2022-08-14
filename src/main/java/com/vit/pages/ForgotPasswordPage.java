@@ -13,10 +13,10 @@ public class ForgotPasswordPage {
 	        this.driver = driver;
 	    }
    
-    
+	 public void enterEmail(String email){
    
 
-    public void enterEmail(String email){
+    
         driver.findElement(emailField).sendKeys(email);
     }
 
