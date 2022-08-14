@@ -15,5 +15,5 @@ public class SliderTests extends BaseTests {
         
         assertEquals(sliderPage.getSliderValue(), value, "Slider value is incorrect");
 	 }
-   
 }
+
