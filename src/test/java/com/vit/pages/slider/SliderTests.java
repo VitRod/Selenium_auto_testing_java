@@ -7,8 +7,10 @@ import static org.testng.Assert.assertEquals;
 
 public class SliderTests extends BaseTests {
 
-    @Test
+	@Test
     public void testSlideToWholeNumber(){
+	
+    
         String value = "4";
         var sliderPage = homePage.clickHorizonalSlider();
         sliderPage.setSliderValue(value);
