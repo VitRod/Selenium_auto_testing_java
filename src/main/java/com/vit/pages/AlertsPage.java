@@ -10,11 +10,11 @@ public class AlertsPage {
 	private By triggerConfirmButton = By.xpath(".//button[text()='Click for JS Confirm']");
 	private By triggerPromptButton = By.xpath(".//button[text()='Click for JS Prompt']");
 	
-    
+	private By results = By.id("result");
     
     
 
-    private By results = By.id("result");
+    
 
     public AlertsPage(WebDriver driver){
         this.driver = driver;
