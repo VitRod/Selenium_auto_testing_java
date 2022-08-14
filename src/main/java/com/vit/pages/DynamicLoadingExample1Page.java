@@ -13,6 +13,8 @@ public class DynamicLoadingExample1Page {
 
 	private WebDriver driver;
     private By startButton = By.cssSelector("#start button");
+	
+	
     private By loadingIndicator = By.id("loading");
     private By loadedText = By.id("finish");
 
