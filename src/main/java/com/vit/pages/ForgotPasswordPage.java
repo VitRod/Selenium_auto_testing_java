@@ -18,10 +18,10 @@ public class ForgotPasswordPage {
 	 }
     
 	 public EmailSentPage clickRetrievePassword(){
-   
+		 driver.findElement(retrievePasswordButton).click();
 
     
-    	 driver.findElement(retrievePasswordButton).click();
+    	 
     	 return new EmailSentPage(driver);
     } 
        
