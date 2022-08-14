@@ -9,9 +9,9 @@ public class DynamicLoadingExample2Page {
 
 	private WebDriver driver;
 	private By startButton = By.cssSelector("#start button");
-	
-	
 	private By loadedText = By.id("finish");
+	
+	
 	
 	public DynamicLoadingExample2Page(WebDriver driver){
         this.driver = driver;
