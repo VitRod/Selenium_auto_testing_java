@@ -14,9 +14,9 @@ public class HorizontalSliderPage {
         this.driver = driver;
     }
 
-    
+	public void setSliderValue(String value){
 
-    public void setSliderValue(String value){
+    
         while(!getSliderValue().equals(value)){
             driver.findElement(slider).sendKeys(Keys.ARROW_RIGHT);
         }
