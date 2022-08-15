@@ -21,9 +21,9 @@ public class FrameTests extends BaseTests {
         editorPage.setTextArea(text2);
         
         assertEquals(editorPage.getTextFromEditor(), text1+text2, "Text from editor is incorrect");
-       
+	  } 
         
-    }
+  
 	
 	@Test
     public void testFrameText() {
