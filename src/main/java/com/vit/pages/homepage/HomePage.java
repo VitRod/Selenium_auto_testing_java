@@ -1,4 +1,4 @@
-package com.vit.pages;
+package com.vit.pages.homepage;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,6 +7,7 @@ import com.vit.page.navigation.DynamicLoadingPage;
 import com.vit.page.navigation.MultipleWindowsPage;
 import com.vit.pages.alerts.AlertsPage;
 import com.vit.pages.alerts.FileUploadPage;
+import com.vit.pages.contextmenu.ContextMenuPage;
 import com.vit.pages.dropdown.DropdownPage;
 import com.vit.pages.frames.WysiwygEditorPage;
 import com.vit.pages.hover.HoversPage;
@@ -79,14 +80,23 @@ public class HomePage {
 	        return new ForgotPasswordPage(driver);
 	    }
 	 
-	 private void clickLink(String linkText){
-		 driver.findElement(By.linkText(linkText)).click();
-	  }
-	 
 	 public HorizontalSliderPage clickHorizonalSlider(){
 	        clickLink("Horizontal Slider");
 	        return new HorizontalSliderPage(driver);
 	    }
+	 
+	 public ContextMenuPage clickContextMenu(){
+	        clickLink("Context Menu");
+	        return new ContextMenuPage(driver);
+	    }
+	 
+	 
+	 
+	 private void clickLink(String linkText){
+		 driver.findElement(By.linkText(linkText)).click();
+	  }
+	 
+	 
 } 
 	 
 	        
