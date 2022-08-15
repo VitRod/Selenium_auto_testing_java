@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 import com.vit.pages.alerts.AlertsPage;
 import com.vit.pages.alerts.FileUploadPage;
+import com.vit.pages.dropdown.DropdownPage;
 
 public class HomePage {
 
