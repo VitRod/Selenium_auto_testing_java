@@ -24,9 +24,9 @@ public class ContextMenuPage {
   
 	  public void acceptPopUp(){
 		  driver.switchTo().alert().accept();
-
+	  }
+	 }
    
        
-    }
-}
+   
 
