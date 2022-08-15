@@ -9,6 +9,7 @@ import com.vit.pages.alerts.AlertsPage;
 import com.vit.pages.alerts.FileUploadPage;
 import com.vit.pages.contextmenu.ContextMenuPage;
 import com.vit.pages.dropdown.DropdownPage;
+import com.vit.pages.frames.FramesPage;
 import com.vit.pages.frames.WysiwygEditorPage;
 import com.vit.pages.hover.HoversPage;
 import com.vit.pages.javascript.InfiniteScrollPage;
@@ -90,6 +91,10 @@ public class HomePage {
 	        return new ContextMenuPage(driver);
 	    }
 	 
+	 public FramesPage clickFramesPage(){
+	        clickLink("Frames");
+	        return new FramesPage(driver);
+	    }
 	 
 	 
 	 
