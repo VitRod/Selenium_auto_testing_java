@@ -3,6 +3,9 @@ package com.vit.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import com.vit.pages.alerts.AlertsPage;
+import com.vit.pages.alerts.FileUploadPage;
+
 public class HomePage {
 
 	private WebDriver driver;

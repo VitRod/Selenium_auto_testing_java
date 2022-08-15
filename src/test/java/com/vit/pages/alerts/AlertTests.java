@@ -1,7 +1,6 @@
 package com.vit.pages.alerts;
 
 import com.vit.utils.base.BaseTests;
-import com.vit.pages.AlertsPage;
 
 import org.testng.annotations.Test;
 
