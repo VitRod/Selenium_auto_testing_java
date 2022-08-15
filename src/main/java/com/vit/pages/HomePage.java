@@ -3,6 +3,8 @@ package com.vit.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import com.vit.page.navigation.DynamicLoadingPage;
+import com.vit.page.navigation.MultipleWindowsPage;
 import com.vit.pages.alerts.AlertsPage;
 import com.vit.pages.alerts.FileUploadPage;
 import com.vit.pages.dropdown.DropdownPage;
@@ -10,6 +12,7 @@ import com.vit.pages.frames.WysiwygEditorPage;
 import com.vit.pages.hover.HoversPage;
 import com.vit.pages.javascript.InfiniteScrollPage;
 import com.vit.pages.javascript.LargeAndDeepDomPage;
+import com.vit.pages.login.LoginPage;
 
 public class HomePage {
 
