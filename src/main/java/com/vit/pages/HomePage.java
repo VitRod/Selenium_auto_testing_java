@@ -7,6 +7,7 @@ import com.vit.pages.alerts.AlertsPage;
 import com.vit.pages.alerts.FileUploadPage;
 import com.vit.pages.dropdown.DropdownPage;
 import com.vit.pages.frames.WysiwygEditorPage;
+import com.vit.pages.hover.HoversPage;
 
 public class HomePage {
 
