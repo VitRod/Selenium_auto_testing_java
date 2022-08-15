@@ -10,8 +10,8 @@ public class NestedFramesPage {
     private String leftFrame = "frame-left";
     private String bottomFrame = "frame-bottom";
    
-   
     private By body = By.tagName("body");
+    
 
     public NestedFramesPage(WebDriver driver){
         this.driver = driver;
