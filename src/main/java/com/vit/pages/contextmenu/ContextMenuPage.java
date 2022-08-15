@@ -23,10 +23,10 @@ public class ContextMenuPage {
 	  }
   
 	  public void acceptPopUp(){
-   
+		  driver.switchTo().alert().accept();
 
    
-        driver.switchTo().alert().accept();
+       
     }
 }
 
