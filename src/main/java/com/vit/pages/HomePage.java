@@ -13,6 +13,8 @@ import com.vit.pages.hover.HoversPage;
 import com.vit.pages.javascript.InfiniteScrollPage;
 import com.vit.pages.javascript.LargeAndDeepDomPage;
 import com.vit.pages.login.LoginPage;
+import com.vit.pages.passwords.ForgotPasswordPage;
+import com.vit.pages.slider.HorizontalSliderPage;
 
 public class HomePage {
 
