@@ -1,4 +1,4 @@
-package com.vit.pages;
+package com.vit.page.navigation;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

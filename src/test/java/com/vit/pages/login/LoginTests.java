@@ -2,8 +2,6 @@ package com.vit.pages.login;
 
 import com.vit.utils.base.BaseTests;
 import org.testng.annotations.Test;
-import com.vit.pages.LoginPage;
-import com.vit.pages.SecureAreaPage;
 
 import static org.testng.Assert.*;
 
