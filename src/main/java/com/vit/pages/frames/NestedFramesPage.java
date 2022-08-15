@@ -16,8 +16,8 @@ public class NestedFramesPage {
         this.driver = driver;
     }
     
-
     public String getLeftFrameText(){
+    
         driver.switchTo().frame(topFrame);
         driver.switchTo().frame(leftFrame);
         String text = getFrameText();
