@@ -18,10 +18,10 @@ public class ContextMenuPage {
 		 actions.contextClick(driver.findElement(box)).perform();
 	 }
         
-       
+	  public String getPopUpText(){
     
 
-    public String getPopUpText(){
+  
         return driver.switchTo().alert().getText();
     }
 
