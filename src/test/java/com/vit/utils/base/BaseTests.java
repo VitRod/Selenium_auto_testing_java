@@ -1,14 +1,14 @@
 package com.vit.utils.base;
 
 import com.google.common.io.Files;
+import com.vit.pages.homepage.HomePage;
+
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
-import com.vit.pages.HomePage;
-
 
 import java.io.File;
 import java.io.IOException;
