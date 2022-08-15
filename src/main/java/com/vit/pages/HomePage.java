@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import com.vit.pages.alerts.AlertsPage;
 import com.vit.pages.alerts.FileUploadPage;
 import com.vit.pages.dropdown.DropdownPage;
+import com.vit.pages.frames.WysiwygEditorPage;
 
 public class HomePage {
 
