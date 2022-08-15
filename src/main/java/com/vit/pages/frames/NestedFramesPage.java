@@ -12,10 +12,10 @@ public class NestedFramesPage {
    
     private By body = By.tagName("body");
     
-
     public NestedFramesPage(WebDriver driver){
         this.driver = driver;
     }
+    
 
     public String getLeftFrameText(){
         driver.switchTo().frame(topFrame);
