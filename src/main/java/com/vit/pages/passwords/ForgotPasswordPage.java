@@ -1,7 +1,9 @@
-package com.vit.pages;
+package com.vit.pages.passwords;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+
+import com.vit.pages.EmailSentPage;
 
 public class ForgotPasswordPage {
 
