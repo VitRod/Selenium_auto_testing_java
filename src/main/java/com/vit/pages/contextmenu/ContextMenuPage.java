@@ -16,10 +16,10 @@ public class ContextMenuPage {
 	 public void rightClickInBox(){
 		 Actions actions = new Actions(driver);
 		 actions.contextClick(driver.findElement(box)).perform();
-    
+	 }
         
        
-    }
+    
 
     public String getPopUpText(){
         return driver.switchTo().alert().getText();
