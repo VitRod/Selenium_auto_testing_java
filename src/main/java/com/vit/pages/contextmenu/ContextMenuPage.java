@@ -14,10 +14,10 @@ public class ContextMenuPage {
 	    }
     
 	 public void rightClickInBox(){
-   
+		 Actions actions = new Actions(driver);
 
     
-        Actions actions = new Actions(driver);
+        
         actions.contextClick(driver.findElement(box)).perform();
     }
 
