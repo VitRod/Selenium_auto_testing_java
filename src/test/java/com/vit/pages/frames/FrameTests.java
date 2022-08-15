@@ -20,8 +20,8 @@ public class FrameTests extends BaseTests {
         editorPage.decreaseIndention();
         editorPage.setTextArea(text2);
         
-
         assertEquals(editorPage.getTextFromEditor(), text1+text2, "Text from editor is incorrect");
+       
         
     }
 	
