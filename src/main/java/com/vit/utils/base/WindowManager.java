@@ -26,12 +26,12 @@ public class WindowManager {
         navigate.refresh();
     }
 	
-    	
-	
-    
 	public void goTo(String url){
     	navigate.to(url);
 	}
+	
+    
+	
     
 	 public void switchToTab(String tabTitle){
 	        Set<String> windows = driver.getWindowHandles();
