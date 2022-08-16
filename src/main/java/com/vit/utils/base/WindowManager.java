@@ -8,6 +8,7 @@ public class WindowManager {
 
 	private WebDriver driver;
 	private WebDriver.Navigation navigate;
+	
     
 	public WindowManager(WebDriver driver){
     	this.driver = driver;   
