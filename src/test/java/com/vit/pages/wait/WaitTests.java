@@ -20,10 +20,10 @@ public class WaitTests extends BaseTests {
 		 loadingPage.clickStart();
 		 assertEquals(loadingPage.getLoadedText(), "Hello World!", "Loaded text incorrect");
 	 }
-       
+}   
        
         
    
-}   
+  
     
 
