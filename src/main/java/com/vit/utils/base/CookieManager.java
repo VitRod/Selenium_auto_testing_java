@@ -7,6 +7,8 @@ public class CookieManager {
 
 	private WebDriver driver;
 	
+	
+	
 	public CookieManager(WebDriver driver){
         this.driver = driver;
     }
