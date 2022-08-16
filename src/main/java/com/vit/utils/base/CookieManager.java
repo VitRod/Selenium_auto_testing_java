@@ -29,13 +29,13 @@ public class CookieManager {
 	                .build();
 		 return cookie;
 	 } 
+} 
 	
        
                 
        
       
-} 
-	 
+ 
 
     
 
