@@ -27,12 +27,12 @@ public class CookieManager {
 		 Cookie cookie = new Cookie.Builder(name, value)
 				 .domain("the-internet.herokuapp.com")
 	                .build();
-	
+		 return cookie;
 
 	
        
                 
-        return cookie;
+       
     }    
 } 
 	 
