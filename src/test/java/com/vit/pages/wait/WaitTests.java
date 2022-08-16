@@ -19,11 +19,11 @@ public class WaitTests extends BaseTests {
 		 var loadingPage = homePage.clickDynamicLoading().clickExample2();
 		 loadingPage.clickStart();
 		 assertEquals(loadingPage.getLoadedText(), "Hello World!", "Loaded text incorrect");
-	
+	 }
        
        
         
-    }
+   
 }   
     
 
