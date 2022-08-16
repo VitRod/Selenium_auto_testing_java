@@ -8,8 +8,10 @@ import static org.testng.Assert.assertFalse;
 
 public class CookiesTests extends BaseTests {
 
-    @Test
+	@Test
     public void testDeleteCookie(){
+	
+    
         var cookieManager = getCookieManager();
         Cookie cookie = cookieManager.buildCookie("optimizelyBuckets", "%7B%TD");
         cookieManager.deleteCookie(cookie);
