@@ -11,11 +11,11 @@ public class CookieManager {
         this.driver = driver;
     }
 	
-	
-	
 	public void addCookie(Cookie cookie){
         driver.manage().addCookie(cookie);
     }
+	
+	
 	 
 	public void deleteCookie(Cookie cookie){
         driver.manage().deleteCookie(cookie);
