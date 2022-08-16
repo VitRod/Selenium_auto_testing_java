@@ -20,10 +20,10 @@ public class CookieManager {
     }        
 	 
 	public boolean isCookiePresent(Cookie cookie){
+		 return driver.manage().getCookieNamed(cookie.getName()) != null;
 		
 		
-		
-        return driver.manage().getCookieNamed(cookie.getName()) != null;
+       
     }
 
 	
