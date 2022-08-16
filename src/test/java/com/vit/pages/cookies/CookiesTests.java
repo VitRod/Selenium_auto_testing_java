@@ -13,8 +13,8 @@ public class CookiesTests extends BaseTests {
 		 var cookieManager = getCookieManager();
 		 Cookie cookie = cookieManager.buildCookie("optimizelyBuckets", "%7B%TD");
 		 cookieManager.deleteCookie(cookie);
+		 assertFalse(cookieManager.isCookiePresent(cookie), "Cookie was not deleted");
         
-        
-        assertFalse(cookieManager.isCookiePresent(cookie), "Cookie was not deleted");
+       
     }
 }
