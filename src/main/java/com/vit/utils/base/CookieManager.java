@@ -24,12 +24,12 @@ public class CookieManager {
 	 }
 		
 	public Cookie buildCookie(String name, String value){
-   
+		 Cookie cookie = new Cookie.Builder(name, value)
 
 	
 
 	
-        Cookie cookie = new Cookie.Builder(name, value)
+       
                 .domain("the-internet.herokuapp.com")
                 .build();
         return cookie;
