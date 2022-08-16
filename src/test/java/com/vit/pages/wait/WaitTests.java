@@ -16,11 +16,11 @@ public class WaitTests extends BaseTests {
 		
 	@Test
     public void testWaitUntilVisible(){
+		 var loadingPage = homePage.clickDynamicLoading().clickExample2();
 	
 	
 	
-	
-        var loadingPage = homePage.clickDynamicLoading().clickExample2();
+       
         loadingPage.clickStart();
         assertEquals(loadingPage.getLoadedText(), "Hello World!", "Loaded text incorrect");
     }
