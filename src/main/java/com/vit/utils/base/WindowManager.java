@@ -30,10 +30,10 @@ public class WindowManager {
     	navigate.to(url);
 	}
 	
-    
+	public void switchToTab(String tabTitle){
 	
     
-	 public void switchToTab(String tabTitle){
+	 
 	        Set<String> windows = driver.getWindowHandles();
 	        System.out.println("Number of tabs: " + windows.size());
 	        System.out.println("Window handles:");
