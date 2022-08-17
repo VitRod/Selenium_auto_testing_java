@@ -31,12 +31,12 @@ public class WindowManager {
 	}
 	
 	public void switchToTab(String tabTitle){
-		 Set<String> windows = driver.getWindowHandles();
-    
+		 	Set<String> windows = driver.getWindowHandles();
+		 	System.out.println("Number of tabs: " + windows.size());
+	        System.out.println("Window handles:");
 	 
 	       
-	        System.out.println("Number of tabs: " + windows.size());
-	        System.out.println("Window handles:");
+	        
 	        windows.forEach(System.out::println);
 	        
 	        for(String window : windows){
