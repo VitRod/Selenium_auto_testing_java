@@ -44,13 +44,13 @@ public class WindowManager {
 	        	if(tabTitle.equals(driver.getTitle())){
 
 	        		break; 
-
+	        	}    
+	        }                       
+	      }   
 	            
 	                
 	            	 
-	            }    
-	        }                       
-	      }   
+	            
 	          
 	 public void switchToNewTab(){
 	    	Set<String> windows = driver.getWindowHandles();
