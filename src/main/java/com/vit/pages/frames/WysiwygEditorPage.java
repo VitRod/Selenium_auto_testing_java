@@ -41,12 +41,12 @@ public class WysiwygEditorPage {
    	 driver.switchTo().frame(editorIframeId);
    }
   
-
-    
     private void switchToMainArea(){
     	driver.switchTo().parentFrame();
     }
 }  
+    
+    
 
    
         
