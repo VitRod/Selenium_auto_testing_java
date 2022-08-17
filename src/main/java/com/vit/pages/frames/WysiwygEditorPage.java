@@ -26,14 +26,14 @@ public class WysiwygEditorPage {
         switchToMainArea();
     }
 
-	
-    
     public String getTextFromEditor(){
     	switchToEditArea();
     	String text = driver.findElement(textArea).getText();
     	switchToMainArea();
     	 return text;
     }
+    
+   
         
     public void decreaseIndention(){
     	driver.findElement(decreaseIndentButton).click();
