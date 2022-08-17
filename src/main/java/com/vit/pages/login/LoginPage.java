@@ -22,12 +22,12 @@ public class LoginPage {
         driver.findElement(passwordField).sendKeys(password);
     }
    
-
-	
-	
 	public SecureAreaPage clickLoginButton(){
         driver.findElement(loginButton).click();
         return new SecureAreaPage(driver);
+	
+	
+	
 	
         
 	}
