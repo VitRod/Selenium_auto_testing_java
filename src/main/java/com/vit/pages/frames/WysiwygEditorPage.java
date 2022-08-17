@@ -14,13 +14,13 @@ public class WysiwygEditorPage {
         this.driver = driver;
     }
 
-    
-    
     public void clearTextArea(){
         switchToEditArea();
         driver.findElement(textArea).clear();
         switchToMainArea();
     }
+    
+    
 	
     public void setTextArea(String text){
         switchToEditArea();
