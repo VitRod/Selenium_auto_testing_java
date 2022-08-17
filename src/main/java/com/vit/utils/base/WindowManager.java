@@ -50,11 +50,11 @@ public class WindowManager {
 	            
 	public void switchToNewTab(){
 		Set<String> windows = driver.getWindowHandles();
-	            
+		windows.forEach(driver.switchTo()::window);
 	          
 	 
 	    	
-	    	windows.forEach(driver.switchTo()::window);
+	    	
 	    }
 } 
 
