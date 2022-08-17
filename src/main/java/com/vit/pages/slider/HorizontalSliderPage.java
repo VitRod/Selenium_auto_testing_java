@@ -22,10 +22,10 @@ public class HorizontalSliderPage {
 	 }
 		
 	public String getSliderValue(){
-		
+		return driver.findElement(sliderValue).getText();
        
 	
-		 return driver.findElement(sliderValue).getText();
+		 
 	 }
 }   
    
