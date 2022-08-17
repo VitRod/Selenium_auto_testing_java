@@ -8,6 +8,8 @@ public class HorizontalSliderPage {
 
 	private WebDriver driver;
 	private By sliderValue = By.id("range");
+	
+	
 	private By slider = By.cssSelector(".sliderContainer input");
     
 	public HorizontalSliderPage(WebDriver driver){
