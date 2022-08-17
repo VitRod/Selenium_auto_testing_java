@@ -18,12 +18,12 @@ public class LoginPage {
 		driver.findElement(usernameField).sendKeys(username);
 	 }
 	
-        
-   
-
 	public void setPassword(String password){
         driver.findElement(passwordField).sendKeys(password);
     }
+   
+
+	
 	
 	public SecureAreaPage clickLoginButton(){
         driver.findElement(loginButton).click();
