@@ -16,10 +16,10 @@ public class HorizontalSliderPage {
     }
 	
 	public void setSliderValue(String value){
-	
-	
-	
 		while(!getSliderValue().equals(value)){
+	
+	
+		
 			   driver.findElement(slider).sendKeys(Keys.ARROW_RIGHT);
 		 }
 	 }
