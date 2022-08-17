@@ -14,10 +14,10 @@ public class LoginPage {
         this.driver = driver;
     }
 	
-    
+	public void setUsername(String username){
 	
 
-	public void setUsername(String username){
+	
         driver.findElement(usernameField).sendKeys(username);
     }
 
