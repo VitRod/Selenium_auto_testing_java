@@ -34,10 +34,10 @@ public class WindowManager {
 		 	Set<String> windows = driver.getWindowHandles();
 		 	System.out.println("Number of tabs: " + windows.size());
 	        System.out.println("Window handles:");
-	 
+	        windows.forEach(System.out::println);
 	       
 	        
-	        windows.forEach(System.out::println);
+	       
 	        
 	        for(String window : windows){
 	        	System.out.println("Switching to window: " + window);
