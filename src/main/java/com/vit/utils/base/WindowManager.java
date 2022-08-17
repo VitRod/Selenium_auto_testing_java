@@ -40,10 +40,10 @@ public class WindowManager {
 	        	System.out.println("Switching to window: " + window);
 	        
 	        	driver.switchTo().window(window);
-	        	
+	        	 System.out.println("Current window title: " + driver.getTitle());
 	            
 
-	            System.out.println("Current window title: " + driver.getTitle());
+	           
 
 	            if(tabTitle.equals(driver.getTitle())){
 	                
