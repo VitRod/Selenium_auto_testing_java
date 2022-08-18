@@ -32,9 +32,9 @@ public class DropdownPage {
         ((JavascriptExecutor)driver).executeScript(script, findDropDownElement());
     }
 
-    
-
     private Select findDropDownElement(){
+
+    
         return new Select(driver.findElement(dropdown));
     }
 }
