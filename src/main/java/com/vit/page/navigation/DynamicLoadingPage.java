@@ -26,14 +26,14 @@ public class DynamicLoadingPage {
 		 return new DynamicLoadingExample2Page(driver);
 	  }
     
-	 
-        
-	
-        
 	 public DynamicLoadingExample2Page rightClickOnExample2Link(){
 		 driver.findElement(link_Example2).sendKeys(Keys.CONTROL, Keys.RETURN);
 		 return new DynamicLoadingExample2Page(driver);
 	 }
+        
+	
+        
+	 
 }
         
        
