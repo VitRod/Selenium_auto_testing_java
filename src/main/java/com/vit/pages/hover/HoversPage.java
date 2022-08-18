@@ -23,9 +23,9 @@ public class HoversPage {
 		Actions actions = new Actions(driver);
 		actions.moveToElement(figure).perform();
 		return new FigureCaption(figure.findElement(boxCaption));
-        
-       
 	 }
+       
+	
        
 	public class FigureCaption{
 		private WebElement caption;
