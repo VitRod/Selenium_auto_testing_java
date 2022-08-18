@@ -30,8 +30,8 @@ public class DynamicLoadingPage {
 		 driver.findElement(link_Example2).sendKeys(Keys.CONTROL, Keys.RETURN);
 		 return new DynamicLoadingExample2Page(driver);
 	 }
-        
-}
+}     
+
         
 	 
 
