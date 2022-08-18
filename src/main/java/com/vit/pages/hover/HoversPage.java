@@ -20,9 +20,9 @@ public class HoversPage {
      */
 	public FigureCaption hoverOverFigure(int index){
 		WebElement figure = driver.findElements(figureBox).get(index - 1);
-	
+		Actions actions = new Actions(driver);
         
-        Actions actions = new Actions(driver);
+        
         actions.moveToElement(figure).perform();
         return new FigureCaption(figure.findElement(boxCaption));
 	 }
