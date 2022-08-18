@@ -18,11 +18,11 @@ public class DropdownPage {
         this.driver = driver;
     }
 	
-    
-    
     public void selectFromDropDown(String option){
         findDropDownElement().selectByVisibleText(option);
     }
+    
+    
 
     public List<String> getSelectedOptions(){
         List<WebElement> selectedElements = findDropDownElement().getAllSelectedOptions();
