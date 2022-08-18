@@ -9,12 +9,12 @@ public class ContextMenuPage {
 	private WebDriver driver;
 	private By box = By.id("hot-spot");
 	
+	public ContextMenuPage(WebDriver driver){
+        this.driver = driver;
+    }
+
 	
-	
-	 public ContextMenuPage(WebDriver driver){
-	        this.driver = driver;
-	    }
-    
+	 
 	 public void rightClickInBox(){
 		 Actions actions = new Actions(driver);
 		 actions.contextClick(driver.findElement(box)).perform();
