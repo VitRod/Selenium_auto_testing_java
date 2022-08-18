@@ -15,7 +15,7 @@ public class MultipleWindowsPage {
 	public void clickHere(){
 		 driver.findElement(clickHereLink).click();
 	 }
-
+}  
 	 
-}     
+   
     
