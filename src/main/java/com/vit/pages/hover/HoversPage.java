@@ -15,11 +15,11 @@ public class HoversPage {
         this.driver = driver;
     }
     
-	
-	
-	 /**
+	/**
      * @param index starts at 1
      */
+	
+	 
 	public FigureCaption hoverOverFigure(int index){
         WebElement figure = driver.findElements(figureBox).get(index - 1);
         Actions actions = new Actions(driver);
