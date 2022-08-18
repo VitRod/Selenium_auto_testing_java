@@ -9,6 +9,8 @@ public class ContextMenuPage {
 	private WebDriver driver;
 	private By box = By.id("hot-spot");
 	
+	
+	
 	 public ContextMenuPage(WebDriver driver){
 	        this.driver = driver;
 	    }
