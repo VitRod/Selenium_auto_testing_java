@@ -22,12 +22,12 @@ public class DropdownPage {
         findDropDownElement().selectByVisibleText(option);
     }
     
-    
-
     public List<String> getSelectedOptions(){
         List<WebElement> selectedElements = findDropDownElement().getAllSelectedOptions();
         return selectedElements.stream().map(e->e.getText()).collect(Collectors.toList());
     }
+
+    
 
     public void addMultipleAttribute(){
         String script = "arguments[0].setAttribute('multiple','')";
