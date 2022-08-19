@@ -16,10 +16,10 @@ public class FramesPage {
         driver.findElement(By.linkText("Nested Frames")).click();
         return new NestedFramesPage(driver);
     }
-	
-	
-	
 }
+	
+	
+
 	
 	
     
