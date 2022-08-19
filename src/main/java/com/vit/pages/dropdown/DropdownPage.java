@@ -28,9 +28,9 @@ public class DropdownPage {
     }
 
     public void addMultipleAttribute(){
-
+    	String script = "arguments[0].setAttribute('multiple','')";
    
-        String script = "arguments[0].setAttribute('multiple','')";
+        
         ((JavascriptExecutor)driver).executeScript(script, findDropDownElement());
     }
 
