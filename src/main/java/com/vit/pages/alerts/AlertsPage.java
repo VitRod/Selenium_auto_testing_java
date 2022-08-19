@@ -20,13 +20,13 @@ public class AlertsPage {
 		driver.findElement(triggerAlertButton).click();
     }
     
-
+	public void triggerConfirm(){
+        driver.findElement(triggerConfirmButton).click();
+    }
     
         
 
-    public void triggerConfirm(){
-        driver.findElement(triggerConfirmButton).click();
-    }
+    
 
     public void triggerPrompt(){
         driver.findElement(triggerPromptButton).click();
