@@ -24,13 +24,13 @@ public class AlertsPage {
         driver.findElement(triggerConfirmButton).click();
     }
     
-        
+	public void triggerPrompt(){
+        driver.findElement(triggerPromptButton).click();
+    }
 
     
 
-    public void triggerPrompt(){
-        driver.findElement(triggerPromptButton).click();
-    }
+    
     
     public void alert_clickToAccept(){
         driver.switchTo().alert().accept();
