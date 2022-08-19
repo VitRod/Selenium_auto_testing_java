@@ -41,12 +41,12 @@ public class HoversPage {
 			 return caption.isDisplayed();
 	        }
 
-		 
-		 
-        
-		 public String getTitle(){
+		public String getTitle(){
 			 return caption.findElement(header).getText();
 	    }
+		 
+        
+		 
 
 		 public String getLink(){
 			 return caption.findElement(link).getAttribute("href");
