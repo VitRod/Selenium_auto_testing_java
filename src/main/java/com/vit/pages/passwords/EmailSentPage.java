@@ -15,8 +15,8 @@ public class EmailSentPage {
 	public String getMessage(){
         return driver.findElement(contentArea).getText();
     }
-
-	
 }
+	
+
 
     
