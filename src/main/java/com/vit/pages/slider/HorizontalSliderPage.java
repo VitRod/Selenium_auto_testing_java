@@ -11,11 +11,11 @@ public class HorizontalSliderPage {
 	
 	private By slider = By.cssSelector(".sliderContainer input");
 	
-	
-	
 	public HorizontalSliderPage(WebDriver driver){
         this.driver = driver;
     }
+	
+	
 	
 	public void setSliderValue(String value){
 		while(!getSliderValue().equals(value)){
